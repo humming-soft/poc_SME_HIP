@@ -7,7 +7,7 @@
 		
 		<!-- -- -->
 		<!-- header -->
-		<div id="header">
+		<div id="header" class="col-md-12">
 			<?php include 'module/menu/header_menu.php' ?>
 		</div>
 		<!-- -- -->

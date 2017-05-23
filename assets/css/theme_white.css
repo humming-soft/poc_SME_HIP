@@ -70,12 +70,12 @@ header
 /*menu*/
 
 #header_menu a {
-	color: #fff;
-	background: #112;
+	color: #336;
+	background: #fff;
 }
 	#header_menu a:hover {
-		color: #aff;
-		background: #000;
+		color: #000;
+		background: #eef;
 	}
 
 

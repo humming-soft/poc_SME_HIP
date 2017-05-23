@@ -73,115 +73,23 @@ div#content {
 header
 --------------------------------------------*/
 
-
-.logo_holder {
-	padding: 7px 20px 10px 10px;
+div#header > div {
+	background: #fff;
+	padding: 12px 10px;
+	border-bottom: 1px solid #ccc;
 }
 
-div.logo_holder div.logo {
-	display: inline-block;
-}
-div.logo_holder div.logo img {
-	padding: 0 5px 0 0;
-}
-div.logo_holder div.logo:first-child img {
-	height: 30px;
-}
-div.logo_holder div.logo:last-child img {
-	height: 20px;
-}
-
-.header_bottom {
-	padding: 5px 10px;
-}
-div.header_bottom div {
-	display: inline-block;
-}
-
-/*header_datetime_menu*/
-div#header_datetime_menu {
-	text-align: right;
-}
-div#header_datetime_menu div {
-	display: inline-block;
-}
-
-/*date time*/
-div#header_datetime {
-	padding: 10px 0 0 0;
-}
-
-#header_datetime span.hd_label {
-	font-size: .8em;
-}
-
-#header_datetime span.hd_button {
-	padding: 1px 5px;
-	font-size: .7em;
-	border-radius: 3em;
-	border:1px solid rgba(255,255,255,.5);
-	color: #fff;
-}
-	#header_datetime span.hd_button:hover {
-		cursor: pointer;
-		border:1px solid #fff;
-	}
-
-.hd_label_today {
-	margin: 0 15px 0 0;
-	color: #ccf;
-	
-}
-.hd_label_data {
-	color: #fca;
+/*logo*/
+div#header .logo_holder img {
+	padding: 0 10px;
+	height: 50px;
 }
 
 /*menu*/
-#header_menu {
-	padding: 12px 0 0 0;
-	text-align: right;
-	width: 100px;
-	font-size: .8em;
+div#header #header_menu ul.dropdown-menu li a i {
+	padding: 0 10px 0 0;
 }
 
-#header_menu.coach {
-	padding: 12px 0 0 0;
-	text-align: right;
-	width: 750px;
-}
-
-	#header_menu.coach a i {
-		padding: 0 5px 0 5px;
-	}
-	#header_menu.coach a.button {
-		padding: 5px 10px;
-		margin: 3px 6px 3px 0;
-		border-radius: 30px;
-		color: #fff;
-		text-decoration: none;
-		background: #112;
-	}
-		#header_menu.coach a.button:hover {
-			color: #aff;
-			background: #000;
-		}
-#header_menu .badge {
-	background: #f03;
-	font-weight: normal;
-}
-	
-#header_menu a {
-	padding: 5px 7px;
-	margin: 3px 6px 3px 0;
-	border-radius: 30px;
-	color: #fff;
-	text-decoration: none;
-	background: #112;
-}
-	#header_menu a:hover {
-		color: #aff;
-		background: #000;
-	}
 
 
 /*____________________________________________
