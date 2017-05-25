@@ -3,7 +3,8 @@
 		<div class="col-xs-4 col-sm-4 col-md-2">
 			<div class="row">
 				<div class="logo_holder col-md-12">
-					<div class="logo"><img src="../assets/images/logo/osdec-logo-col.png"></div>
+					<a href="template.php"><img src="../assets/images/logo/coat_of_arms.png"></a>
+					<a href="template.php"><img src="../assets/images/logo/malaysiabiz.png"></a>
 				</div>
 			</div>
 		</div>

@@ -158,7 +158,7 @@ breadcrumb
 
 */
 .custom_breadcrumb {
-	padding: 0 5px;
+	padding: 10px;
 	font-size: .9em;
 }
 .custom_breadcrumb a {
@@ -168,15 +168,319 @@ breadcrumb
 	.custom_breadcrumb a:hover {
 		color: #4af;
 	}
+
 .breadcrumb_divider {
 	padding: 0 10px;
 }
+
+div.custom_breadcrumb div.nav {
+	padding: 0 20px;
+}
+
 div.custom_breadcrumb div.title {
 	color: #fff;
-	padding: 0 0 5px;
-	font-size: 2em;
+	padding: 0 20px 5px 20px;
+	font-size: 3em;
 	border-bottom: 1px solid #335;
 }
+
+
+
+/*
+
+
+banner
+
+
+*/
+
+
+div.portlet_banner div.banner_upper {
+	padding: 5px 0 0 0;
+	/*border-top: 1px solid #337;*/
+}
+div.portlet_banner div.banner_middle {
+	padding: 5px 0;
+}
+	div.portlet_banner div.banner_middle img{
+	width: 100%;
+	height: 100%;
+}
+div.portlet_banner div.banner_lower {
+	padding: 0 0 10px 0;
+	/*border-bottom: 1px solid #337;*/
+}
+
+
+
+/*
+
+
+account
+
+
+*/
+
+div.portlet_account {
+	background: #ddd;
+	border-top: 10px solid #335;
+	border-bottom: 10px solid #335;
+}
+div.portlet_account div.portlet_content {
+	padding: 5px 50px;
+}
+
+div.portlet_account div.portlet_content div.title {
+	padding: 10px;
+	font-size: 1.5em;
+	color: #668;
+}
+	div.portlet_account div.portlet_content div.title i {
+		padding: 0 5px 0 0;
+	}
+
+div.portlet_account div.portlet_content div.text img{
+	height: 100%;
+	padding: 5px 10px;
+}
+
+div.portlet_account div.register,
+div.portlet_account div.login {
+	padding: 10px 20px 20px;
+}
+
+div.portlet_account div.register div.title {
+	font-size: 1em;
+	color: #000;
+}
+div.portlet_account div.login div.title {
+	font-size: 1em;
+	color: #000;
+}
+
+/*
+
+
+introduction
+
+
+*/
+
+
+
+
+div.portlet_introduction div {
+	margin-top: 3px;
+	margin-bottom: 2px;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+div.portlet_introduction div.portlet_content {
+	/*margin: 5px;*/
+	min-height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	background: #f5f5fa;
+}
+
+div.portlet_introduction div.portlet_content div.title {
+	padding: 10px;
+	font-size: 1.5em;
+	color: #668;
+}
+	div.portlet_introduction div.portlet_content div.title i {
+		padding: 0 5px 0 0;
+	}
+div.portlet_introduction div.portlet_content div.text {
+	padding: 10px;
+}
+
+
+
+
+
+/*
+
+
+links
+
+
+*/
+
+div.portlet_links div {
+	margin-top: 3px;
+	margin-bottom: 2px;
+	margin-left: -5px;
+	margin-right: -15px;
+}
+
+div.portlet_links div.portlet_content {
+	min-height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	background: #f5f5fa;
+}
+
+div.portlet_links div.portlet_content div.title {
+	padding: 10px;
+	font-size: 1.5em;
+	color: #668;
+}
+	div.portlet_links div.portlet_content div.title i {
+		padding: 0 5px 0 0;
+	}
+div.portlet_links div.portlet_content div.text{
+	padding: 10px;
+	text-align: center;
+}
+
+div.portlet_links div.portlet_content div.text img{
+	height: 100%;
+	padding: 5px 10px;
+}
+
+
+/*
+
+
+collaboration
+
+
+*/
+
+div.portlet_collaboration div {
+	margin-top: 3px;
+	margin-bottom: 2px;
+	margin-left: -5px;
+	margin-right: -15px;
+}
+
+div.portlet_collaboration div.portlet_content {
+	min-height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	background: #f5f5fa;
+}
+
+div.portlet_collaboration div.portlet_content div.title {
+	padding: 10px;
+	font-size: 1.5em;
+	color: #668;
+}
+	div.portlet_collaboration div.portlet_content div.title i {
+		padding: 0 5px 0 0;
+	}
+div.portlet_collaboration div.portlet_content div.text{
+	padding: 10px;
+	text-align: center;
+}
+
+div.portlet_collaboration div.portlet_content div.text img{
+	height: 100%;
+	padding: 5px 10px;
+}
+
+
+/*
+
+
+search
+
+
+*/
+
+
+div.portlet_search div.portlet_content {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	background: #f5f5fa;
+}
+
+
+
+/*question*/
+div.portlet_search div.search_question div.title {
+	padding: 5px 10px;
+	font-size: 1.15em;
+	color: #668;
+}
+div.portlet_search div.search_question div.focus {
+	margin: 10px;
+	padding: 10px 20px 30px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #dde;
+}
+
+div.portlet_search div.search_question div.question {
+	padding: 10px 50px;
+	font-size: 1.5em;
+	color: #000;
+}
+
+/*answer*/
+div.portlet_search div.search_question div.answer {
+	padding: 10px 50px;
+}
+
+div.portlet_search i {
+	padding: 0 10px 0 0;
+}
+
+div.portlet_search .answer_plate {
+	margin: 0 0 10px 0;
+	background: #f5f5ff;
+}
+div.portlet_search .answer_plate .answer_header {
+	background: #ccf;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+	div.portlet_search .answer_plate .answer_header a {
+		color: #009;
+	}
+	div.portlet_search .answer_plate .answer_header:hover {
+		cursor: pointer;
+	}
+div.portlet_search .answer_plate .answer_content .text {
+	padding: 10px 20px;
+}
+div.portlet_search .answer_plate .answer_content .button {
+	padding: 10px 20px;
+	border-bottom: 3px solid #ccf;
+	border-radius: 5px;
+	text-align: right;
+}
+
+
+/*overall*/
+div.portlet_search .content_all {
+	text-align: center;
+}
+
+div.portlet_search .content_all .box_content {
+	background: #333;
+	color: #fff;
+}
+div.portlet_search .content_all .box_content.selected {
+	background: #668;
+}
+div.portlet_search .content_all .box {
+	padding: 40px 20px;
+}
+div.portlet_search .content_all .box i {
+	padding: 10px 13px;
+	text-align: center;
+	border-radius: 30px;
+	background: #335;
+	color: #fff;
+}
+
 
 
 /*

@@ -13,7 +13,7 @@ html, body, input {
 	/*font-family: 'Play', sans-serif;*/
 	/*font-family: 'Doppio One', sans-serif;*/
 	font-size: 16px;
-	background: #fafafa;/*102c44*/
+	background: #f5f5fa;/*102c44*/
 	color: #000;
 }
 
@@ -35,12 +35,15 @@ override
 basic
 --------------------------------------------*/
 
-div#header {
-	/*background: rgba(0,100,200,.52);*/
-	background: #333;
-	border-bottom: 2px solid #334;
+
+div.header_bar > div.row {
+	background: #eaeaef;
+	border-bottom: 2px solid #aaa;
 }
 
+div#content div#dashboard {
+	background: #fff;
+}
 
 /*____________________________________________
 header
@@ -71,7 +74,7 @@ header
 
 #header_menu a {
 	color: #336;
-	background: #fff;
+	background: none;
 }
 	#header_menu a:hover {
 		color: #000;
@@ -182,7 +185,24 @@ breadcrumb
 	}
 div.custom_breadcrumb div.title {
 	color: #335;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #aac;
+}
+
+
+
+/*
+banner
+
+*/
+
+
+div.portlet_banner div.banner_upper {
+	/*border-top: 1px solid #fff;*/
+}
+	div.portlet_banner div.banner_middle img{
+}
+div.portlet_banner div.banner_lower {
+	border-bottom: 1px solid #aac;
 }
 
 
