@@ -69,8 +69,8 @@
 							<div class="nav_plate">
 								<h2>Download Documents</h2>
 								<a href="license.php">User View</a>
-								<!-- <a href="index.php">Agency View</a>
-								<a href="index.php">Admin View</a> -->
+								<!-- <a href="index.php">Agency View</a> -->
+								<a href="license_admin.php">Admin View</a>
 							</div>
 						</div>
 						

@@ -17,6 +17,13 @@
 					
 					<ul class="nav navbar-nav navbar-right">
 						<li>
+							<div class="language">
+								Language :
+								<img src="../assets/images/flag/my.png">
+								<img src="../assets/images/flag/uk.png">
+							</div>
+						</li>
+						<li>
 							<a href="search_engine.php">
 								<i class="fa fa-search" aria-hidden="true"></i>
 								Business / License Registration Search

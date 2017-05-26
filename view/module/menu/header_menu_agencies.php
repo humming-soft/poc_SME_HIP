@@ -30,9 +30,9 @@
 							</a>
 						</li>
 						<li>
-							<a href="license.php">
-								<i class="fa fa-drivers-license" aria-hidden="true"></i>
-								License
+							<a href="search_engine_agency.php">
+								<i class="fa fa-sliders" aria-hidden="true"></i>
+								Information Maintenance Module
 							</a>
 						</li>
 						<li class="dropdown">

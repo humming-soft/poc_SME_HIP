@@ -67,30 +67,12 @@
 							</div>
 							<div class="col-md-4">
 								<div class="row">
-									<?php include 'module/portlet/sme_hip/portlet_bar_chart_service_type_1.html'; ?>
+									<?php include 'module/portlet/sme_hip/portlet_bar_chart_service_type.html'; ?>
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="row">
-									<?php include 'module/portlet/sme_hip/portlet_bar_chart_service_type_2.html'; ?>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-					<div class="col-md-12">
-						<div class="row">
-							
-							<div class="col-md-12">
-								<div class="row">
-									<?php include 'module/portlet/sme_hip/portlet_bar_chart_response_time_1.html'; ?>
-								</div>
-							</div>
-							
-							<div class="col-md-12">
-								<div class="row">
-									<?php include 'module/portlet/sme_hip/portlet_bar_chart_response_time_2.html'; ?>
+									<?php include 'module/portlet/sme_hip/portlet_bar_chart_response_time.html'; ?>
 								</div>
 							</div>
 							
@@ -120,4 +102,4 @@
 	
 </div>
 
-<script type="text/javascript" src="../assets/js/pages/dashboard_lv3.js"></script>
+<script type="text/javascript" src="../assets/js/pages/dashboard_lv2.js"></script>

@@ -93,6 +93,12 @@ div#header #header_menu ul.dropdown-menu li a i {
 	padding: 0 10px 0 0;
 }
 
+div#header div.language {
+	padding: 12px 20px;
+}
+div#header div.language img {
+	height: 13px;
+}
 
 /*____________________________________________
 Error 404
@@ -126,6 +132,17 @@ infographic
 body.infographic {
 	overflow: hidden;
 }
+
+
+
+/*____________________________________________
+infographic
+--------------------------------------------*/
+
+div.portlet_plate > div{
+	margin-bottom: 50px;
+}
+
 
 /*____________________________________________
 generic command
