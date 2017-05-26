@@ -19,7 +19,7 @@
 						<li>
 							<a href="search_engine.php">
 								<i class="fa fa-search" aria-hidden="true"></i>
-								License Search Engine
+								Business / License Registration Search
 							</a>
 						</li>
 						<li>

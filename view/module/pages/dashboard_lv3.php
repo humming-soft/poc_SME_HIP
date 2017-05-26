@@ -9,15 +9,89 @@
 				</nav>
 			</div>
 			<div class="">
-				<div class="col-md-10 title">
+				<div class="col-md-12 title">
 					Dashboard
 				</div>
 			</div>
 		</div>
 		
-		<div class="">
-		
-			<?php include 'module/portlet/portlet_dashboard_v1.html'; ?>
+		<div class="portlet_plate">
+			
+			<!-- -- PORTLET -- -->
+			
+			<div class="col-md-12">
+				<div class="row">
+					
+					<div class="col-md-8">
+						<div class="row">
+							
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="row">
+							
+							<div class="col-md-12">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_line_chart.html'; ?>
+								</div>
+							</div>
+							
+							<div class="col-md-12">
+								<div class="row">
+									<?php include 'module/portlet/sme_hip/portlet_block_number_a1.html'; ?>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- -- PORTLET -- -->
 			
 		</div>
 		

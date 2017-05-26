@@ -417,6 +417,13 @@ div.portlet_search div.search_question div.focus {
 	border: 1px solid #dde;
 }
 
+div.portlet_search div.search_question div.focus_1 {
+	padding: 10px 20px 30px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #dde;
+}
+
 div.portlet_search div.search_question div.question {
 	padding: 10px 50px;
 	font-size: 1.5em;
@@ -440,6 +447,11 @@ div.portlet_search .answer_plate .answer_header {
 	background: #ccf;
 	padding: 10px 20px;
 	border-radius: 5px;
+}
+div.portlet_search .answer_plate .answer_header_1 {
+	background: #ccf;
+	padding: 10px 20px;
+	/*border-radius: 5px;*/
 }
 	div.portlet_search .answer_plate .answer_header a {
 		color: #009;
